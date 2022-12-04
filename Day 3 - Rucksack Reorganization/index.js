@@ -11,7 +11,7 @@ const test = [
 
 const main = () => {
   try {
-    const data = readTextFile("Day 3: Rucksack Reorganization/input.txt");
+    const data = readTextFile("Day 3 - Rucksack Reorganization/input.txt");
     const itemSum = priritizeRearrangement(data);
     const itenSumPartTwo = priritizeRearrangementOfThreeElves(data);
     console.log("PART1",itemSum);
